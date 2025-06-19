@@ -14,7 +14,7 @@ metadata:
   labels:
     version: v1
     team: ml-platform
-    env: dev
+    env: test
 spec:
   displayName: Iris Pipeline
   pipelineName: iris-pipeline
