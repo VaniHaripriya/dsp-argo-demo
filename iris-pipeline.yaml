@@ -9,7 +9,7 @@ spec:
 apiVersion: pipelines.kubeflow.org/v2beta1
 kind: PipelineVersion
 metadata:
-  name: iris-pipeline
+  name: iris-pipeline-v0
   namespace: dspa-k8s
 spec:
   displayName: Iris Pipeline
