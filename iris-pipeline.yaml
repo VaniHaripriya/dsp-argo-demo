@@ -11,6 +11,10 @@ kind: PipelineVersion
 metadata:
   name: iris-pipeline-v0
   namespace: dspa-k8s
+  labels:
+    version: v0
+    team: ml-platform
+    env: dev
 spec:
   displayName: Iris Pipeline
   pipelineName: iris-pipeline
