@@ -2,19 +2,15 @@ apiVersion: pipelines.kubeflow.org/v2beta1
 kind: Pipeline
 metadata:
   name: iris-pipeline
-  namespace: dspa-k8s
+  namespace: dspa
 spec:
   displayName: Iris Pipeline
 ---
 apiVersion: pipelines.kubeflow.org/v2beta1
 kind: PipelineVersion
 metadata:
-  name: iris-pipeline-v1
-  namespace: dspa-k8s
-  labels:
-    version: v1
-    team: ml-platform
-    env: test
+  name: iris-pipeline-v0
+  namespace: dspa
 spec:
   displayName: Iris Pipeline
   pipelineName: iris-pipeline
